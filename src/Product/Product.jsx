@@ -9,7 +9,7 @@ function Product ({perfume}){
       <img src={perfume.img || "/placeholder.svg"} alt={perfume.name} className="card-image" />
 
       <div className="card-content">
-        <a className="perfume-name">{perfume.name}</a>
+        <a className="perfume-name" href={perfume.url} target="_blank">{perfume.name}</a>
 
         <div className="price-section">
           <span className="average-price">${perfume.promPrice.toFixed(2)}</span>
