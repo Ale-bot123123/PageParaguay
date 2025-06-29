@@ -12,7 +12,7 @@ function Product ({perfume}){
         <a className="perfume-name" href={perfume.url} target="_blank">{perfume.name}</a>
 
         <div className="price-section">
-          <span className="average-price">${perfume.promPrice.toFixed(2)}</span>
+          <span className="average-price">${perfume.promPrice}</span>
           <span className="price-label">Precio promedio</span>
         </div>
 
